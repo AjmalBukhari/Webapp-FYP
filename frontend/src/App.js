@@ -5,11 +5,11 @@ const App = () => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        axios.get('/api/items')
+        axios.get('http://127.0.0.1:5000/api/items') // Use Flask's port
             .then(response => setItems(response.data.items))
             .catch(err => console.error(err));
     }, []);
-
+    
     return (
         <div>
             <h1>Buy and Sell Pre-Owned Goods</h1>
