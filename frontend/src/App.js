@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css'; // Import CSS
 
 const App = () => {
-    const [items, setItems] = useState([]);
 
     return (
         <Router>
