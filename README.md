@@ -26,7 +26,7 @@ npm install react-router-dom
 "proxy": "http://127.0.0.1:5000"
 
 
-# Run the React App
+## Run the React App
 
 npm start
 
